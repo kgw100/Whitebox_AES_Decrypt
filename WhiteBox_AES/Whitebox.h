@@ -6,7 +6,7 @@
 void sr(unsigned int out[16]);
 void rev_sr(unsigned int out[16]);
 void res_key(unsigned int out[16]);
-void find_key(const uint8_t sbow[16][16], const uint8_t	tbox[10][16][256], unsigned int key[16]);
+void find_key(const uint8_t sbox[16][16], const uint8_t	tbox[10][16][256], unsigned int key[16]);
 
 
 static const uint8_t sbox[16][16] =
